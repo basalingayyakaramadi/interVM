@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AppsComponent } from './apps/apps.component';
 import { KnowledgeBaseComponent } from './knowledge-base/knowledge-base.component';
 import { SupportComponent } from './support/support.component';
+import { SettingsComponent } from './settings/settings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppsComponent,
     KnowledgeBaseComponent,
-    SupportComponent
+    SupportComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,

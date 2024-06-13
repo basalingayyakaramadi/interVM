@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { FeatureFlagService } from '../feature-flag.service';
 
 @Component({
-  selector: 'app-support',
-  templateUrl: './support.component.html',
-  styleUrls: ['./support.component.less']
+  selector: 'app-settings',
+  templateUrl: './settings.component.html',
+  styleUrls: ['./settings.component.less']
 })
-export class SupportComponent {
+export class SettingsComponent {
   constructor(private featureFlagService: FeatureFlagService){}
- role = 'basicAdmin'
+  role = 'basicAdmin'
 }
