@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppsComponent } from './apps/apps.component';
 import { KnowledgeBaseComponent } from './knowledge-base/knowledge-base.component';
+import { SupportComponent } from './support/support.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path: 'kb',
     component: KnowledgeBaseComponent
+  },
+  {
+    path: 'support',
+    component: SupportComponent
   }
 ];
 
